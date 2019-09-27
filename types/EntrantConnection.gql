@@ -1,0 +1,4 @@
+type EntrantConnection {
+    pageInfo: PageInfo
+    nodes: [Entrant]
+}

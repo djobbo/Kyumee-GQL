@@ -1,0 +1,8 @@
+type GameSelection {
+    id: ID
+    selectionType: GameSelectionType
+    selectionValue: Int
+    orderNum: Int
+    entrantId: Int
+    participantId: Int
+}

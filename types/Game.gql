@@ -1,0 +1,7 @@
+type Game {
+    id: ID
+    selections: [GameSelection]
+    set: Set
+    orderNum: Int
+    winnerId: Int
+}

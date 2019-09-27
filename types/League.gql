@@ -1,0 +1,8 @@
+type League {
+    id: ID
+    name: String
+    slug: String
+    shortSlug: String
+    events(limit: Int): [Event]
+    participants(query: ParticipantPaginationQuery!, isAdmin: Boolean): ParticipantConnection
+}

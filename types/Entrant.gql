@@ -1,0 +1,6 @@
+type Entrant {
+    id: ID
+    event: Event
+    participants: Participant
+    name: String
+}

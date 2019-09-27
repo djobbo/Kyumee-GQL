@@ -1,0 +1,4 @@
+type ParticipantConnection {
+    pageInfo: PageInfo
+    nodes: [Participant]
+}

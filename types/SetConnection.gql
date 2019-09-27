@@ -1,0 +1,4 @@
+type SetConnection {
+    pageInfo: PageInfo
+    nodes: [Set]
+}

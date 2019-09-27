@@ -1,0 +1,9 @@
+type Participant {
+    id: ID
+    entrants: [Entrant]
+    events: [Event]
+    createdAt: Timestamp
+    gamerTag: String
+    prefix: String
+    user: User
+}

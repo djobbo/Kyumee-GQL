@@ -1,0 +1,7 @@
+type Set {
+    id: ID
+    displayScore: String
+    event: Event
+    game(orderNum: Int!): Game
+    games: [Game]
+}
