@@ -1,0 +1,4 @@
+type QueueConnection {
+    pageInfo: PageInfo
+    nodes: [Queue]
+}

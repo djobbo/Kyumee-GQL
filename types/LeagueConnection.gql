@@ -1,0 +1,4 @@
+type LeagueConnection {
+    pageInfo: PageInfo
+    nodes: [League]
+}
