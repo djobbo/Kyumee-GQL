@@ -1,7 +1,9 @@
-type Set implements Node {
-    id: ID!
-    displayScore: String
-    event: Event
-    game(orderNum: Int!): Game
-    games: [Game]
-}
+module.exports = `
+    type Set implements Node {
+        id: ID!
+        displayScore: String
+        event: Event
+        game(orderNum: Int!): Game
+        games: [Game]
+    }
+`

@@ -1,4 +1,6 @@
-type SetConnection implements Connection {
-    pageInfo: PageInfo
-    nodes: [Set]
-}
+module.exports = `
+    type SetConnection implements Connection {
+        pageInfo: PageInfo
+        nodes: [Set]
+    }
+`

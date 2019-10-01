@@ -1,8 +1,10 @@
-type League implements Node {
-    id: ID!
-    name: String
-    slug: String
-    shortSlug: String
-    events(limit: Int): [Event]
-    participants(query: ParticipantPaginationQuery!, isAdmin: Boolean): ParticipantConnection
-}
+module.exports = `
+    type League implements Node {
+        id: ID!
+        name: String
+        slug: String
+        shortSlug: String
+        events(limit: Int): [Event]
+        participants(query: ParticipantPaginationQuery!, isAdmin: Boolean): ParticipantConnection
+    }
+`

@@ -1,4 +1,6 @@
-type QueueConnection implements Connection {
-    pageInfo: PageInfo
-    nodes: [Queue]
-}
+module.exports = `
+    type QueueConnection implements Connection {
+        pageInfo: PageInfo
+        nodes: [Queue]
+    }
+`

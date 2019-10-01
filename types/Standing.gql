@@ -1,3 +1,5 @@
-type Standing implements Node {
-    id: ID!
-}
+module.exports = `
+    type Standing implements Node {
+        id: ID!
+    }
+`

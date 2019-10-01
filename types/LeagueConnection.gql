@@ -1,4 +1,6 @@
-type LeagueConnection implements Connection {
-    pageInfo: PageInfo
-    nodes: [League]
-}
+module.exports = `
+    type LeagueConnection implements Connection {
+        pageInfo: PageInfo
+        nodes: [League]
+    }
+`

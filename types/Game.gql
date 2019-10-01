@@ -1,7 +1,9 @@
-type Game implements Node {
-    id: ID!
-    selections: [GameSelection]
-    set: Set
-    orderNum: Int
-    winnerId: Int
-}
+module.exports = `
+    type Game implements Node {
+        id: ID!
+        selections: [GameSelection]
+        set: Set
+        orderNum: Int
+        winnerId: Int
+    }
+`

@@ -1,4 +1,6 @@
-type EntrantConnection implements Connection {
-    pageInfo: PageInfo
-    nodes: [Entrant]
-}
+module.exports = `
+    type EntrantConnection implements Connection {
+        pageInfo: PageInfo
+        nodes: [Entrant]
+    }
+`

@@ -1,6 +1,8 @@
-type Entrant implements Node {
-    id: ID!
-    event: Event
-    participants: Participant
-    name: String
-}
+module.exports = `
+    type Entrant implements Node {
+        id: ID!
+        event: Event
+        participants: Participant
+        name: String
+    }
+`

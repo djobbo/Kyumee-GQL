@@ -1,3 +1,5 @@
-type Queue implements Node {
-    id: ID!
-}
+module.exports = `
+    type Queue implements Node {
+        id: ID!
+    }
+`

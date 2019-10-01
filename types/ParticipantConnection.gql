@@ -1,4 +1,6 @@
-type ParticipantConnection implements Connection {
-    pageInfo: PageInfo
-    nodes: [Participant]
-}
+module.exports = `
+    type ParticipantConnection implements Connection {
+        pageInfo: PageInfo
+        nodes: [Participant]
+    }
+`

@@ -1,4 +1,6 @@
-type StandingConnection implements Connection {
-    pageInfo: PageInfo
-    nodes: [Standing]
-}
+module.exports = `
+    type StandingConnection implements Connection {
+        pageInfo: PageInfo
+        nodes: [Standing]
+    }
+`
