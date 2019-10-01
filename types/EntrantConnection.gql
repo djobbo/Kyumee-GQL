@@ -1,4 +1,4 @@
-type EntrantConnection {
+type EntrantConnection implements Connection {
     pageInfo: PageInfo
     nodes: [Entrant]
 }

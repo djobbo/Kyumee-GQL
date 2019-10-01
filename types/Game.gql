@@ -1,5 +1,5 @@
-type Game {
-    id: ID
+type Game implements Node {
+    id: ID!
     selections: [GameSelection]
     set: Set
     orderNum: Int

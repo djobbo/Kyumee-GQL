@@ -1,5 +1,5 @@
-type Participant {
-    id: ID
+type Participant implements Node {
+    id: ID!
     entrants: [Entrant]
     events: [Event]
     createdAt: Timestamp

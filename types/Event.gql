@@ -1,4 +1,4 @@
-type Event {
+type Event implements Node {
     id: ID!
     entrants(query: EventEntrantPageQuery): EntrantConnection
     sets(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters): SetConnection

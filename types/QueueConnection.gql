@@ -1,4 +1,4 @@
-type QueueConnection {
+type QueueConnection implements Connection {
     pageInfo: PageInfo
     nodes: [Queue]
 }

@@ -1,4 +1,0 @@
-type UserConnection {
-    pageInfo: PageInfo
-    nodes: [User]
-}

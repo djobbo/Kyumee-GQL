@@ -13,7 +13,5 @@ mongoose.connect(database, { useNewUrlParser: true, useUnifiedTopology: true })
             console.log(`🚀  Server ready at ${url}`);
         });
 
-        const discordBot = require('./discord-bot');
-
     })
     .catch(err => console.log(err));

@@ -1,4 +1,4 @@
-type LeagueConnection {
+type LeagueConnection implements Connection {
     pageInfo: PageInfo
     nodes: [League]
 }

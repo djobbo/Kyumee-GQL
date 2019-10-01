@@ -1,5 +1,5 @@
-type Entrant {
-    id: ID
+type Entrant implements Node {
+    id: ID!
     event: Event
     participants: Participant
     name: String

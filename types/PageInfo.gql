@@ -1,0 +1,10 @@
+module.exports = `
+    type PageInfo {
+        total: Int
+        totalPages: Int
+        page: Int
+        perPage: Int
+        sortBy: String
+        filter: String # Change to JSON
+    }
+`

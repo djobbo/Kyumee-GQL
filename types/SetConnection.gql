@@ -1,4 +1,4 @@
-type SetConnection {
+type SetConnection implements Connection {
     pageInfo: PageInfo
     nodes: [Set]
 }

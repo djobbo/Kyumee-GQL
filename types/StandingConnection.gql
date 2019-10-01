@@ -1,4 +1,4 @@
-type StandingConnection {
+type StandingConnection implements Connection {
     pageInfo: PageInfo
     nodes: [Standing]
 }

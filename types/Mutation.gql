@@ -1,3 +1,5 @@
-type Mutation {
-
-}
+module.exports = `
+    type Mutation {
+        createUser: User
+    }
+`

@@ -1,5 +1,5 @@
-type League {
-    id: ID
+type League implements Node {
+    id: ID!
     name: String
     slug: String
     shortSlug: String

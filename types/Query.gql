@@ -1,15 +1,6 @@
-type Query {
-    user(id: ID!): User
-    users(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters) : UserConnection
-    league(id: ID!): League
-    leagues(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters) : LeagueConnection
-    event(id: ID!): Event
-    set(id: ID!): Set
-    sets(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters) : SetConnection
-    game(id: ID!): Game
-    entrant(id: ID!): Entrant
-    entrants(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters) : EntrantConnection
-    participant(id: ID!): Participant
-    participants(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters) : ParticipantConnection
-    standings(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters) : StandingConnection
-}
+module.exports = `
+    type Query {
+        node(id: ID!): Node
+        connection(page: Int, perPage: Int, sortType: SetSortType): Connection # TODO: SetFilters
+    }
+`
