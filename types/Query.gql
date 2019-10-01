@@ -1,6 +1,8 @@
 module.exports = `
     type Query {
-        node(id: ID!): Node
-        connection(page: Int, perPage: Int, sortType: SetSortType): Connection # TODO: SetFilters
+        user(id: ID!): User
+        league(id: ID): League
+        event(id: ID!): Event
+        #nodes(page: Int, perPage: Int, sortType: SetSortType): Connection # TODO: SetFilters
     }
 `

@@ -7,6 +7,7 @@ module.exports = gql`
 
     # Enums
     ${require('./enums/SetSortType.gql')}
+    ${require('./enums/GameSelectionType.gql')}
 
     # Interfaces
     ${require('./interfaces/Node.gql')}
@@ -28,4 +29,5 @@ module.exports = gql`
     ${require('./types/Participant.gql')}
     ${require('./types/ParticipantConnection.gql')}
     ${require('./types/PageInfo.gql')}
+    ${require('./types/GameSelection.gql')}
 `

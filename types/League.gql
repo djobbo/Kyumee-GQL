@@ -5,6 +5,6 @@ module.exports = `
         slug: String
         shortSlug: String
         events(limit: Int): [Event]
-        participants(query: ParticipantPaginationQuery!, isAdmin: Boolean): ParticipantConnection
+        participants(limit: Int): [Participant]
     }
 `

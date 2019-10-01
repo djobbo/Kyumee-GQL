@@ -3,7 +3,7 @@ module.exports = `
         id: ID!
         entrants: [Entrant]
         events: [Event]
-        createdAt: Timestamp
+        #createdAt: Timestamp
         gamerTag: String
         prefix: String
         user: User

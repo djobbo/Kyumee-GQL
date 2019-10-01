@@ -1,15 +1,15 @@
 module.exports = `
     type Event implements Node {
         id: ID!
-        entrants(query: EventEntrantPageQuery): EntrantConnection
-        sets(page: Int, perPage: Int, sortType: SetSortType, filters: SetFilters): SetConnection
-        standings(query: StandingPaginationQuery!): StandingConnection
-        startAt: TimeStamp
+        entrants(page: Int, perPage: Int, sortType: SetSortType): EntrantConnection
+        sets(page: Int, perPage: Int, sortType: SetSortType): SetConnection
+        standings(page: Int, perPage: Int, sortType: SetSortType): StandingConnection
+        #startAt: TimeStamp
         timezone: String
-        endAt: TimeStamp
+        #endAt: TimeStamp
         numEntrants: Int
         league: League
-        videogame: Videogame
+        #videogame: Videogame
         rulesMarkdown: String
     }
 `

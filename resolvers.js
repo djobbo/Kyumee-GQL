@@ -1,17 +1,12 @@
 module.exports = {
     Query: {
-        ...require('./queries/Connection'),
-        ...require('./queries/Node')
+        ...require('./queries/User'),
+        ...require('./queries/League'),
+        ...require('./queries/Event')
     },
-    Mutation: {},
-    Node: {
-        __resolveType() {
-            return null;
-        }
-    },
-    Connection: {
-        __resolveType() {
-            return null;
-        }
+    Mutation: {
+        ...require('./mutations/User'),
+        ...require('./mutations/League'),
+        ...require('./mutations/Event')
     }
 }

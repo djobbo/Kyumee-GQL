@@ -1,5 +1,12 @@
 module.exports = `
     type Mutation {
-        createUser: User
+        # User
+        createUser(name: String): User
+
+        # League
+        createLeague(name: String): User
+
+        # Event
+        createEvent(name: String, leagueId: ID!): User
     }
 `
