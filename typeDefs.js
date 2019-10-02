@@ -2,8 +2,8 @@ const { gql } = require('apollo-server');
 
 module.exports = gql`
     # Root
-    ${require('./types/Query.gql')}
-    ${require('./types/Mutation.gql')}
+    ${require('./typeDefs/Query.gql')}
+    ${require('./typeDefs/Mutation.gql')}
 
     # Enums
     ${require('./enums/SetSortType.gql')}
@@ -14,20 +14,20 @@ module.exports = gql`
     ${require('./interfaces/Connection.gql')}
 
     # Types
-    ${require('./types/User.gql')}
-    ${require('./types/UserConnection.gql')}
-    ${require('./types/League.gql')}
-    ${require('./types/LeagueConnection.gql')}
-    ${require('./types/Event.gql')}
-    ${require('./types/Set.gql')}
-    ${require('./types/SetConnection.gql')}
-    ${require('./types/Game.gql')}
-    ${require('./types/Entrant.gql')}
-    ${require('./types/EntrantConnection.gql')}
-    ${require('./types/Standing.gql')}
-    ${require('./types/StandingConnection.gql')}
-    ${require('./types/Participant.gql')}
-    ${require('./types/ParticipantConnection.gql')}
-    ${require('./types/PageInfo.gql')}
-    ${require('./types/GameSelection.gql')}
+    ${require('./typeDefs/User.gql')}
+    ${require('./typeDefs/UserConnection.gql')}
+    ${require('./typeDefs/League.gql')}
+    ${require('./typeDefs/LeagueConnection.gql')}
+    ${require('./typeDefs/Event.gql')}
+    ${require('./typeDefs/Set.gql')}
+    ${require('./typeDefs/SetConnection.gql')}
+    ${require('./typeDefs/Game.gql')}
+    ${require('./typeDefs/Entrant.gql')}
+    ${require('./typeDefs/EntrantConnection.gql')}
+    ${require('./typeDefs/Standing.gql')}
+    ${require('./typeDefs/StandingConnection.gql')}
+    ${require('./typeDefs/Participant.gql')}
+    ${require('./typeDefs/ParticipantConnection.gql')}
+    ${require('./typeDefs/PageInfo.gql')}
+    ${require('./typeDefs/GameSelection.gql')}
 `

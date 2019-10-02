@@ -1,12 +1,12 @@
 module.exports = {
     Query: {
-        ...require('./queries/User'),
-        ...require('./queries/League'),
-        ...require('./queries/Event')
+        ...require('./resolvers/queries/User'),
+        ...require('./resolvers/queries/League'),
+        ...require('./resolvers/queries/Event')
     },
     Mutation: {
-        ...require('./mutations/User'),
-        ...require('./mutations/League'),
-        ...require('./mutations/Event')
+        ...require('./resolvers/mutations/User'),
+        ...require('./resolvers/mutations/League'),
+        ...require('./resolvers/mutations/Event')
     }
 }
